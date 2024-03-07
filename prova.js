@@ -95,24 +95,6 @@ function NomeNota(aluno){
 }
 NomeNota(chamadaDeAlunos[0])
 
-
-
-
-// function mostrarAlunosMateria(ListaAlunos){
-//     for (let i = 0; i < ListaAlunos.length; i++) {
-//         for (let j = 0; j < ListaAlunos[i].materias.length; j++) {
-//            if (ListaAlunos[i].materias[j].nota >= 6 && ListaAlunos[i].materias[j].presenca >= 75 ) {
-//               console.log(`O aluno ${ListaAlunos[i].nome} foi aprovado em ${ListaAlunos[i].materias[j].nome}`)
-//            }else{
-//             console.log(`O aluno ${ListaAlunos[i].nome} foi reprovado em ${ListaAlunos[i].materias[j].nome}`)
-//            }
-        
-//         }
-        
-//     }
-// }
-// mostrarAlunosMateria(chamadaDeAlunos)
-
 function mostrarAprovado(ListaAlunos){
     console.log("--------APROVADOS--------")
     for (let i = 0; i < ListaAlunos.length; i++) {
